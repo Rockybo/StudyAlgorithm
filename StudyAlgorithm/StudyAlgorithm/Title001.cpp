@@ -23,7 +23,7 @@ using namespace std;
  end  返回指向容器末尾位置的迭代器
  begin 返回指向容器起始位置的迭代器（iterator）
  */
-// day1:
+// day1:hashmap解决 时间复杂度O(n) 空间复杂度O(n)
 vector<int> twoSum(vector<int> &nums, int target) {
     unordered_map<int, int> hashTable;
     
