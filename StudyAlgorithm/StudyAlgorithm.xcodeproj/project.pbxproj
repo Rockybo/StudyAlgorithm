@@ -10,6 +10,7 @@
 		CA8B59E925E8F4D5009BB5B1 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CA8B59E825E8F4D5009BB5B1 /* main.cpp */; };
 		CA8B59F125E8F506009BB5B1 /* Title001.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CA8B59F025E8F506009BB5B1 /* Title001.cpp */; };
 		CA8B59F425E8F656009BB5B1 /* Title002.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CA8B59F325E8F656009BB5B1 /* Title002.cpp */; };
+		CA8B59F725E9121F009BB5B1 /* Title003.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CA8B59F625E9121F009BB5B1 /* Title003.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -29,6 +30,7 @@
 		CA8B59E825E8F4D5009BB5B1 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		CA8B59F025E8F506009BB5B1 /* Title001.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Title001.cpp; sourceTree = "<group>"; };
 		CA8B59F325E8F656009BB5B1 /* Title002.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Title002.cpp; sourceTree = "<group>"; };
+		CA8B59F625E9121F009BB5B1 /* Title003.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Title003.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +66,7 @@
 				CA8B59E825E8F4D5009BB5B1 /* main.cpp */,
 				CA8B59F025E8F506009BB5B1 /* Title001.cpp */,
 				CA8B59F325E8F656009BB5B1 /* Title002.cpp */,
+				CA8B59F625E9121F009BB5B1 /* Title003.cpp */,
 			);
 			path = StudyAlgorithm;
 			sourceTree = "<group>";
@@ -126,6 +129,7 @@
 			files = (
 				CA8B59F125E8F506009BB5B1 /* Title001.cpp in Sources */,
 				CA8B59E925E8F4D5009BB5B1 /* main.cpp in Sources */,
+				CA8B59F725E9121F009BB5B1 /* Title003.cpp in Sources */,
 				CA8B59F425E8F656009BB5B1 /* Title002.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

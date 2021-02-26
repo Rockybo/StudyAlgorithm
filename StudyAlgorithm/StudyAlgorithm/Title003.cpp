@@ -1,10 +1,18 @@
 //
-//  main.cpp
+//  Title003.cpp
 //  StudyAlgorithm
 //
 //  Created by berlinbli on 2021/2/26.
 //
+/**
+ 无重复字符的最长子串
+ 
+ 给定一个字符串，请你找出其中不含有重复字符的 最长子串 的长度。
+ 输入: s = "abcabcbb"
+ 输出: 3
+ 解释: 因为无重复字符的最长子串是 "abc"，所以其长度为 3。
 
+ */
 #include <iostream>
 #include <string>
 #include <unordered_set>
@@ -48,10 +56,9 @@ int lengthOfLongestSubstring(string s) {
 // 时间复杂度O(n) 空间复杂度O(|E|), E代表字符集while循环次数
 
 
-int main(int argc, const char * argv[]) {
+void test3() {
     // insert code here...
     string s = "abcabcbb";
     int a = lengthOfLongestSubstring(s);
-    std::cout << "Hello, World!\n";
-    return 0;
+    cout << "a" << a << endl;
 }
