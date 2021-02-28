@@ -41,7 +41,7 @@ int lengthOfLongestSubstring(string s) {
             occ.erase(s[i - 1]);
         }
         
-        // 右指针小于n 并且occ容器中没有这个字符
+        // 右指针小于n 并且occ容器中没有这个字符，满足这两个条件才能走内部循环
         while (rk + 1 < n && !occ.count(s[rk + 1])) {
             // 不断移动右指针
             occ.insert(s[rk + 1]);
