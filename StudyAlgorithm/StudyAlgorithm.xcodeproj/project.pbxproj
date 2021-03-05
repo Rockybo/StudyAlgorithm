@@ -10,6 +10,8 @@
 		CA0C71CA25F127E6004826D5 /* Title1013.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CA0C71C925F127E6004826D5 /* Title1013.cpp */; };
 		CA0C71D325F24E91004826D5 /* Title020.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CA0C71D225F24E91004826D5 /* Title020.cpp */; };
 		CA0C71D625F2539A004826D5 /* Title143.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CA0C71D525F2539A004826D5 /* Title143.cpp */; };
+		CA0C71D925F263C6004826D5 /* Title023.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CA0C71D825F263C6004826D5 /* Title023.cpp */; };
+		CA0C71DC25F268EB004826D5 /* Title053.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CA0C71DB25F268EB004826D5 /* Title053.cpp */; };
 		CA2D7CCF25EA7D6A0067A19D /* Title006.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CA2D7CCE25EA7D6A0067A19D /* Title006.cpp */; };
 		CA2D7D6525EDE2110067A19D /* Title007.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CA2D7D6425EDE2110067A19D /* Title007.cpp */; };
 		CA2D7D6825EDE5A80067A19D /* Title009.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CA2D7D6725EDE5A80067A19D /* Title009.cpp */; };
@@ -37,6 +39,8 @@
 		CA0C71C925F127E6004826D5 /* Title1013.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Title1013.cpp; sourceTree = "<group>"; };
 		CA0C71D225F24E91004826D5 /* Title020.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Title020.cpp; sourceTree = "<group>"; };
 		CA0C71D525F2539A004826D5 /* Title143.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Title143.cpp; sourceTree = "<group>"; };
+		CA0C71D825F263C6004826D5 /* Title023.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Title023.cpp; sourceTree = "<group>"; };
+		CA0C71DB25F268EB004826D5 /* Title053.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Title053.cpp; sourceTree = "<group>"; };
 		CA2D7CCE25EA7D6A0067A19D /* Title006.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Title006.cpp; sourceTree = "<group>"; };
 		CA2D7D6425EDE2110067A19D /* Title007.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Title007.cpp; sourceTree = "<group>"; };
 		CA2D7D6725EDE5A80067A19D /* Title009.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Title009.cpp; sourceTree = "<group>"; };
@@ -88,8 +92,10 @@
 				CA2D7D6425EDE2110067A19D /* Title007.cpp */,
 				CA2D7D6725EDE5A80067A19D /* Title009.cpp */,
 				CA2D7D6B25EDE9AA0067A19D /* Title011.cpp */,
-				CA0C71C925F127E6004826D5 /* Title1013.cpp */,
 				CA0C71D225F24E91004826D5 /* Title020.cpp */,
+				CA0C71D825F263C6004826D5 /* Title023.cpp */,
+				CA0C71DB25F268EB004826D5 /* Title053.cpp */,
+				CA0C71C925F127E6004826D5 /* Title1013.cpp */,
 				CA0C71D525F2539A004826D5 /* Title143.cpp */,
 			);
 			path = StudyAlgorithm;
@@ -156,12 +162,14 @@
 				CA0C71D325F24E91004826D5 /* Title020.cpp in Sources */,
 				CA2D7D6C25EDE9AA0067A19D /* Title011.cpp in Sources */,
 				CA8B59E925E8F4D5009BB5B1 /* main.cpp in Sources */,
+				CA0C71DC25F268EB004826D5 /* Title053.cpp in Sources */,
 				CA8B59F725E9121F009BB5B1 /* Title003.cpp in Sources */,
 				CA0C71CA25F127E6004826D5 /* Title1013.cpp in Sources */,
 				CA8B59F425E8F656009BB5B1 /* Title002.cpp in Sources */,
 				CA2D7D6525EDE2110067A19D /* Title007.cpp in Sources */,
 				CA2D7CCF25EA7D6A0067A19D /* Title006.cpp in Sources */,
 				CA2D7D6825EDE5A80067A19D /* Title009.cpp in Sources */,
+				CA0C71D925F263C6004826D5 /* Title023.cpp in Sources */,
 				CA0C71D625F2539A004826D5 /* Title143.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
