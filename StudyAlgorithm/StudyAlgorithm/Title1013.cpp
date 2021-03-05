@@ -16,6 +16,8 @@
  可以先算出前面一部分符合每一部分的值的下标，然后算出剩余的是否是target的两倍，符合条件返回yes
  */
 #include <stdio.h>
+#include <vector>
+using namespace std;
 bool canThreePartsEqualSum(vector<int>& arr) {
     int sum = 0;
     for(int i = 0; i < arr.size(); ++i) {
@@ -27,6 +29,7 @@ bool canThreePartsEqualSum(vector<int>& arr) {
     int target = sum / 3;
     
     int n = arr.size(), i  = 0, cur = 0;
+    // 记录第一组的下标
     while (i < n) {
         cur += arr[i];
         if (cur == target) {

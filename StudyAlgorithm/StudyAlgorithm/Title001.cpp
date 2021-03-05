@@ -22,6 +22,7 @@ using namespace std;
  find 通过给定主键查找元素,没找到：返回unordered_map::end
  end  返回指向容器末尾位置的迭代器
  begin 返回指向容器起始位置的迭代器（iterator）
+ count 统计key值在unordered_map中出现的次数
  */
 // day1:hashmap解决 时间复杂度O(n) 空间复杂度O(n)
 vector<int> twoSum(vector<int> &nums, int target) {
