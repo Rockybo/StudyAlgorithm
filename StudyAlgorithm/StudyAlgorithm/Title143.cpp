@@ -1,10 +1,31 @@
 //
-//  main.cpp
+//  Title143.cpp
 //  StudyAlgorithm
 //
-//  Created by berlinbli on 2021/2/26.
+//  Created by berlinbli on 2021/3/5.
 //
 
+/**
+ 143. 重排链表
+ 给定一个单链表 L：L0→L1→…→Ln-1→Ln ，
+ 将其重新排列后变为： L0→Ln→L1→Ln-1→L2→Ln-2→…
+ 
+ 0->n->1->n-1->2
+
+ 你不能只是单纯的改变节点内部的值，而是需要实际的进行节点交换。
+ 给定链表 1->2->3->4, 重新排列为 1->4->2->3.
+
+ 
+ [1,2,3,4]--------[1,4,2,3]
+ 
+ */
+
+/**
+    解题思路：
+因为链表不支持下标访问，可以转成线性表(数组)
+ 
+ 
+ */
 #include <stdio.h>
 #include <vector>
 #include <iostream>
@@ -37,11 +58,14 @@ void reorderList(ListNode* head) {
     
     int i = 0, j = vec.size() - 1;
     while (i < j) {
+        // 交换节点
         vec[i] -> next = vec[j];
         i++;
+        // 推出循环
         if (i == j) {
             break;
         }
+        // 交换节点
         vec[j] -> next = vec[i];
         j--;
     }
@@ -51,6 +75,7 @@ void reorderList(ListNode* head) {
      i = 2, j = 3 -----
      i = 3, j = 3 break
      */
+    // 最后一个节点指向null
     vec[i] -> next = nullptr;
     
     cout << "重新排列链表：" << endl;
@@ -61,7 +86,7 @@ void reorderList(ListNode* head) {
     
 }
 
-int main(int argc, const char * argv[]) {
+void title143() {
     // 给定链表 1->2->3->4, 重新排列为 1->4->2->3.
     ListNode *head = new ListNode(1);
     ListNode *subNode2 = new ListNode(2);
@@ -85,7 +110,7 @@ int main(int argc, const char * argv[]) {
     cout << "-----------" << endl;
 
     reorderList(head);
-    return 0;
 }
+
 
 
